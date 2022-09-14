@@ -1,0 +1,185 @@
+/*CSS Document*/
+
+body{
+    background-color: black;
+}
+
+.align{
+    max-width: 95%;
+    margin-left: 30px;
+}
+
+.single-item img{
+    width: 98%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center;
+}
+
+.header {
+    position:fixed;
+    background-color: black;
+    padding: 20px 10px;
+    min-width: 100vw;
+    z-index: 1;
+    top: 0;
+  }
+  
+  .header li{
+      float: left;
+      margin: 0 10px;
+  }
+  .header a {
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 999px;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+    border-right: 10px;
+  }
+
+  .text {
+    text-decoration-color: rgb();
+  }
+
+
+
+
+
+
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.navbar {
+  transition: all 0.4s;
+  background-color: black;
+}
+
+.navbar .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background-color: rgb(109, 109, 109);
+  box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+
+/* tv show 1 and 2 */
+
+.alignbox{
+  height: 100vh;
+  width: 100vw;
+  margin-top: 5%;
+  background-color: black;
+}
+
+.bodydesign{
+  width: 100vw;
+  max-height: 100vh;
+  position: absolute;
+  overflow: hidden;
+}
+
+.posterdiv{
+  float: left;
+  width: 30%;
+  margin-top: 50px;
+}
+
+.imgmovie{
+  padding: 10px 40px 10px 50px;
+}
+
+@media (max-width: 767px) {
+.imgmovie
+ {
+    margin-right: 0;
+  }}
+
+.imgmovie img{
+  width: 100%;
+  height: 100%;
+  object-position: bottom;
+  border-radius: 50px;
+  display: grid;
+  place-items: center;
+}
+
+
+.filmtitle{
+  float: left;
+}
+.filmtitle p{
+  padding: 20px;
+  color: white;
+  font-size: 80px;
+}
+.filmtitle i{
+  font-size: 20px;
+}
+
+.filmabout{
+  position: absolute;
+  margin-left: 70vh;
+  margin-top: 30vh;
+  margin-right: 5vh;
+}
+.filmabout p{
+  color: white;
+  font-size: 20px;
+  font-family: roboto;
+}
+
+.video
+{
+  margin: 0 auto;width: 400px;
+}
